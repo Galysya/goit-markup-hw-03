@@ -93,6 +93,11 @@ color: #434455;
     text-transform: uppercase;
     color: #f4f4fd ;
    }
+
+.foot{
+    display: inline-block; 
+    margin-bottom: 16px;
+}
 .menu-item-site{
     font-size: 16px;
     font-weight: 500;
@@ -117,6 +122,10 @@ font-style: normal;
 .contact:hover, 
 .contact:focus {
  color:  #404bbf;
+}
+.header-adress{
+    display: flex;
+    gap: 40px;
 }
 .main-section{
     background: #2E2F42;
