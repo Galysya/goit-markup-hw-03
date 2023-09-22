@@ -38,7 +38,6 @@ color: #434455;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center; 
 }
 .footer-description{
     color: #F4F4FD;
@@ -67,6 +66,7 @@ color: #434455;
     line-height: 1.17;
     text-transform: uppercase;
     margin-right: 76px;
+    max-width: 496px; 
 }
 .logotup {
     color:  #2E2F42;
@@ -79,6 +79,7 @@ color: #434455;
     line-height: 1.17;
     text-transform: uppercase;
     margin-right: 76px;
+    max-width: 496px; 
 }
 .logotup-footer{
     font-family: 'Raleway', sans-serif;
@@ -119,6 +120,7 @@ font-style: normal;
     flex-shrink: 0;
     max-width: 1440px;
     padding: 188px 0 ;
+    gap: 40px;
 }
 .main-title-name{
 font-size: 56px;
@@ -129,6 +131,7 @@ text-align: center;
 line-height: 1.07;
 color: #FFFFFF;
 width: 496px;
+margin: 0 auto;
 margin-bottom: 48px;
 }
 
@@ -153,6 +156,8 @@ margin-bottom: 48px;
     padding: 16px 32px;
     border: none;
     display: block;
+    margin: 0 auto;
+    
 }
 .last-section{
     background: #F4F4FD;
@@ -172,7 +177,7 @@ color:  #2E2F42;
     letter-spacing: 0.02em;
     color:  #2E2F42;
     margin-bottom: 8px;
-    text-align: center;
+  
     }
     
 .item-list-but{
@@ -205,6 +210,10 @@ border: 1px solid transparent;
 .menu-item-site:focus{
     color:#404BBF;
 }
+.hero-list-item{
+    width: calc((100% - 72px) / 4);
+}
+
 .hero-title{
     font-size: 36px;
     font-weight: 700;
@@ -215,7 +224,6 @@ border: 1px solid transparent;
     color: #2E2F42;
     line-height: 1.11;
     margin-bottom: 72px; 
-  
 }
 .team-name{
     background-color: #FFFFFF;
@@ -234,12 +242,11 @@ border: 1px solid transparent;
     justify-content: space-between;
 }
 .container{
-    width: 1168px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
   
 }
 .h1, h2, h3, h4, p{
@@ -253,23 +260,24 @@ a {color: currentColor;}
 
 img {display: block;}
 
-.hero-title{
-margin-bottom: 72px;
-}
 
 .menu-list{
     display: flex;
     gap: 40px;
 }
+
+.hero-section{
+    padding: 120px 0; 
+}
 .hero{
     display: flex;
-    justify-content: center;
     gap: 24px; 
-    padding: 120px 0 
+    
 }
 .hero-title{
     padding-bottom: 72px;
 margin: auto;
+margin-bottom: 72px;
 }
 
 .list-text{
@@ -314,7 +322,7 @@ margin: auto;
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect (0 0 0 0);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 .page-header{
